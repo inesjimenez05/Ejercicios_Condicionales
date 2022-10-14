@@ -16,8 +16,11 @@ else:
 '''
 
 while(usuario!="pepe" or codigo!="asdasd"):
-    print("Error usuario o contraseña incorrectos")
-    usuario=input("Diga el usuario: \n")
-    codigo=input("Diga la contraseña: \n")
+    if(usuario!="pepe"):
+        print("Error en el usuario")
+        usuario=input("Diga el usuario: \n")
+    elif(codigo!="asdasd"):
+        print("Error en la contraseña")
+        codigo=input("Diga la contraseña: \n")
 
 print("Has entrado al sistema")

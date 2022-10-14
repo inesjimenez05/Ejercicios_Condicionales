@@ -2,6 +2,6 @@
 
 letra=""
 
-letra=str(input("Diga una letra: \n"))
+letra=input("Diga una letra: \n")
 
 print(letra.isupper())
