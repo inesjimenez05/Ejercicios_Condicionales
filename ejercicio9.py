@@ -14,5 +14,10 @@ vNumeros.append(num2)
 vNumeros.append(num3)
 
 vNumeros.sort(reverse=True)
+print("El mayor es", vNumeros[0])
+print("El menor es", vNumeros[2])
+ultimo= len(vNumeros)
+print("El ultimo numero es", vNumeros[ultimo-1])
+
 
 print(vNumeros)
